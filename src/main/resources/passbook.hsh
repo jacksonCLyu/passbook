@@ -1,0 +1,6 @@
+create_namespace 'pb'
+
+create 'pb:user',{NAME => 'b',VERSIONS => '3',TTL => '2147483647', 'BLOOMFILTER' => 'row'},{NAME => 'o',VERSIONS => '3',TTL => '2147483647', 'BLOOMFILTER' => 'row'}
+create 'pb:pass',{NAME => 'i',VERSIONS => '3',TTL => '2147483647', 'BLOOMFILTER' => 'row'}
+create 'pb:passtemplate',{NAME => 'b',VERSIONS => '3',TTL => '2147483647', 'BLOOMFILTER' => 'row'},{NAME => 'c',VERSIONS => '3',TTL => '2147483647', 'BLOOMFILTER' => 'row'}
+create 'pb:feedback',{NAME => 'i',VERSIONS => '3',TTL => '2147483647', 'BLOOMFILTER' => 'row'}
