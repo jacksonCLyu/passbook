@@ -74,6 +74,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- google common-base 工具包 -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>24.1-jre</version>
+        </dependency>
         <!-- spring boot 测试依赖包 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
