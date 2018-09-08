@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Feedbake {
+public class Feedback {
 
     /** 用户 id */
     private Long userId;
