@@ -63,6 +63,11 @@
             <artifactId>spring-boot-starter-hbase</artifactId>
             <version>1.0.0.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>0.98.9-hadoop2</version>
+        </dependency>
         <!-- spring configuration 注解，只有有需要才打包 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

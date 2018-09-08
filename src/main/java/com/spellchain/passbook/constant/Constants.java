@@ -61,6 +61,9 @@ public class Constants {
         /** 优惠券标题 */
         public static final String TITLE = "title";
 
+        /** 优惠券摘要信息 */
+        public static final String SUMMARY = "summary";
+
         /** 优惠券标题 */
         public static final String DESC = "desc";
 

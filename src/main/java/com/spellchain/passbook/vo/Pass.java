@@ -18,7 +18,7 @@ import java.util.Date;
 public class Pass {
 
     /** 用户 id */
-    private Long id;
+    private Long userId;
 
     /** pass 在 HBase 中的 rowKey */
     private String rowKey;
