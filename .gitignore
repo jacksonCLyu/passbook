@@ -14,6 +14,7 @@
 .idea
 *.iws
 *.iml
+/spellchain-passbook.log
 *.ipr
 
 ### NetBeans ###
