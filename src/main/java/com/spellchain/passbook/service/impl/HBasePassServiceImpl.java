@@ -1,6 +1,5 @@
 package com.spellchain.passbook.service.impl;
 
-import ch.qos.logback.classic.db.names.TableName;
 import com.spellchain.passbook.constant.Constants;
 import com.spellchain.passbook.service.IHBasePassService;
 import com.spellchain.passbook.utils.RowKeyGenUtil;
@@ -8,6 +7,7 @@ import com.spellchain.passbook.vo.PassTemplate;
 import com.spring4all.spring.boot.starter.hbase.api.HbaseTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.time.DateFormatUtils;
+import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.Get;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.util.Bytes;

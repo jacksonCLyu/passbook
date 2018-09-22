@@ -49,7 +49,7 @@
         <!-- spring redis 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-redis</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <!-- yml 配置文件解析依赖包 -->
         <dependency>
@@ -57,6 +57,12 @@
             <artifactId>snakeyaml</artifactId>
             <version>1.10</version>
         </dependency>
+        <!-- hadoop 依赖 -->
+        <!--<dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-hadoop-boot</artifactId>
+            <version>2.5.0.RELEASE</version>
+        </dependency>-->
         <!-- spring hbase 依赖 -->
         <dependency>
             <groupId>com.spring4all</groupId>
@@ -66,7 +72,7 @@
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-client</artifactId>
-            <version>0.98.9-hadoop2</version>
+            <version>1.3.1</version>
         </dependency>
         <!-- spring configuration 注解，只有有需要才打包 -->
         <dependency>
