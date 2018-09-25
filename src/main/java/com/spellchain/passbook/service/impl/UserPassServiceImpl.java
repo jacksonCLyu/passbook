@@ -154,11 +154,13 @@ public class UserPassServiceImpl implements IUserPassService {
 
             if (null == passTemplate) {
                 log.error("PassTemplate Null : {}", pass.getTemplateId());
+                continue;
             }
 
             Merchants merchants = merchantsMap.getOrDefault(passTemplate.getId(), null);
             if (null == merchants) {
                 log.error("Merchants Null : {}", passTemplate.getId());
+                continue;
             }
 
             result.add(new PassInfo(pass, passTemplate, merchants));
