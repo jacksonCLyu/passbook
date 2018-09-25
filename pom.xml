@@ -77,7 +77,8 @@
         <!-- spring configuration 注解，只有有需要才打包 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processer</artifactId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>1.5.3.RELEASE</version>
             <optional>true</optional>
         </dependency>
         <!-- lombok 开源包，用于免去实体对象getter setter 无参构造和全参构造 -->
