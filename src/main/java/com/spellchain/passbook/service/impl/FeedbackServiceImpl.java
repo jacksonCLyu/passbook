@@ -13,6 +13,7 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.filter.PrefixFilter;
 import org.apache.hadoop.hbase.util.Bytes;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -28,7 +29,12 @@ import java.util.List;
 public class FeedbackServiceImpl implements IFeedbackService {
 
     /** HBase 客户端 */
-    private HbaseTemplate hbaseTemplate;
+    private final HbaseTemplate hbaseTemplate;
+
+    @Autowired
+    public FeedbackServiceImpl(HbaseTemplate hbaseTemplate) {
+        this.hbaseTemplate = hbaseTemplate;
+    }
 
     @Override
     public Response createFeedback(Feedback feedback) {

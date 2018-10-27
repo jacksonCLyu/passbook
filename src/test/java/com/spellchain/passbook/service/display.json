@@ -1,0 +1,50 @@
+{
+  "data": {
+    "passTemplateInfos": [{
+      "merchants": {
+        "address": "北京市朝阳区",
+        "businessLicenseUrl": "www.chaoyangxiaozhuo.com",
+        "id": 1,
+        "isAudit": false,
+        "logoUrl": "www.chaoyangxiaozhuo.com",
+        "name": "朝阳小酌",
+        "phone": "010-8888888"
+      },
+      "passTemplate": {
+        "background": 2,
+        "desc": "详情: 朝阳小酌",
+        "end": 1541433600000,
+        "hasToken": false,
+        "id": 1,
+        "limit": 10000,
+        "start": 1539705600000,
+        "summary": "简介: 朝阳小酌",
+        "title": "title: 朝阳小酌-2"
+      }
+    }, {
+      "merchants": {
+        "address": "北京市朝阳区",
+        "businessLicenseUrl": "www.chaoyangxiaozhuo.com",
+        "id": 1,
+        "isAudit": false,
+        "logoUrl": "www.chaoyangxiaozhuo.com",
+        "name": "朝阳小酌",
+        "phone": "010-8888888"
+      },
+      "passTemplate": {
+        "background": 2,
+        "desc": "详情: 朝阳小酌",
+        "end": 1541433600000,
+        "hasToken": true,
+        "id": 1,
+        "limit": 10000,
+        "start": 1539705600000,
+        "summary": "简介: 朝阳小酌",
+        "title": "title: 朝阳小酌-3"
+      }
+    }],
+    "userId": 193831
+  },
+  "errorCode": 0,
+  "errorMsg": ""
+}

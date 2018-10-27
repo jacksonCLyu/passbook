@@ -155,7 +155,7 @@ public class GainPassTemplateServiceImpl implements IGainPassTemplateService {
                 Paths.get(Constants.TOKEN_DIR, String.valueOf(merchantsId),
                         passTemplateId + Constants.USED_TOKEN_SUFFIX),
                 (token + "\n").getBytes(),
-                StandardOpenOption.APPEND
+                StandardOpenOption.CREATE, StandardOpenOption.APPEND
         );
     }
 }
